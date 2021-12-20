@@ -1,0 +1,30 @@
+.worksBlock {
+    min-height: 100vh;
+    background-color: #9af3f3;
+}
+
+.worksContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: #dd7cec;
+
+}
+
+.works {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (width: 360px) {
+
+    .works {
+        flex-direction: column;
+    }
+}
