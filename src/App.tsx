@@ -18,6 +18,13 @@ function App() {
             <RemoteWork/>
             <Contacts/>
             <Footer/>
+            <MainHeader/>
+            <Main/>
+            <Skills/>
+            <Works/>
+            <RemoteWork/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }
