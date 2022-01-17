@@ -12,6 +12,8 @@ export const Works = () => {
                 <div className={styles.works}>
                     <Work/>
                     <Work/>
+                    <Work/>
+                    <Work/>
                 </div>
             </div>
 
