@@ -1,6 +1,6 @@
 .worksBlock {
     min-height: 100vh;
-    background-color: #9af3f3;
+    background-color: #000;
 }
 
 .worksContainer {
@@ -10,16 +10,32 @@
 }
 
 .title {
-    background-color: #dd7cec;
-
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 0;
+    color: #fff;
+    position: relative;
 }
+
+.subLine {
+    position: absolute;
+    content: '';
+    background: red;
+    width: 100px;
+    height: 1px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
 
 .works {
     width: 100%;
     border: 1px solid;
     display: flex;
     justify-content: space-between;
-
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 600px) {

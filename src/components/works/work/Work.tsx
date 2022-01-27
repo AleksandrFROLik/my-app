@@ -11,10 +11,8 @@ export const Work = () => {
                     <a href="/">Click</a>
                 </div>
             </div>
-            <div className={styles.description}>
-                <h3>Name project</h3>
-                <span>Short description</span>
-            </div>
+            <h3 className={styles.workTitle}>Name project</h3>
+            <span className={styles.description}>Short description</span>
         </div>
 
 

@@ -29,16 +29,17 @@
 }
 
 .description {
-    background-color: #e1dfdf;
+
 }
 
-.description h3 {
+.workTitle {
     width: auto;
     background-color: #a8a7a7;
     margin: 10px;
+
 }
 
-.description span {
+.description {
     margin: 10px;
     width: auto;
     height: 75px;

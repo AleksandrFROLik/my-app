@@ -18,7 +18,6 @@ function App() {
             <RemoteWork/>
             <Contacts/>
             <Footer/>
-
         </div>
     );
 }
