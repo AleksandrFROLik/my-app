@@ -1,17 +1,21 @@
 .nav {
-    border: 1px solid;
-}
+  border: 1px solid;
 
-.navItem {
+  .navItem {
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
-}
+  }
 
-.navItem li a {
+  .navItem li a {
     text-decoration: none;
     color: white;
     padding: 5px;
+  }
 }
+
+
+
+
 

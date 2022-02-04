@@ -1,0 +1,21 @@
+.headerBlock {
+  height: 80px;
+  background-color: dodgerblue;
+
+  .headerContainer {
+    border: 1px solid;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+}
+
+@media (max-width: 360px) {
+  .headerContainer {
+    justify-content: center;
+  }
+}

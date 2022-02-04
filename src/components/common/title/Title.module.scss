@@ -7,14 +7,15 @@
     margin-top: 0;
     color: #fff;
     position: relative;
+    .subLine {
+        position: absolute;
+        content: '';
+        background: red;
+        width: 100px;
+        height: 1px;
+        left: 50%;
+        transform:translate(-50%, 50%);
+    }
 }
 
-.subLine {
-    position: absolute;
-    content: '';
-    background: red;
-    width: 100px;
-    height: 1px;
-    left: 50%;
-    transform:translate(-50%, 50%);
-}
+
