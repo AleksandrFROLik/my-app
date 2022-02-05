@@ -1,12 +1,15 @@
 .workBlock {
     width: 100%;
     border: 1px solid;
+    margin: 8px;
+
 }
 
 .imageBlock {
     width: 100%;
     height: 55vh;
     background-color: #e37d90;
+    border-radius: 10px 10px 0 0;
 
     display: flex;
     justify-content: center;
@@ -35,7 +38,7 @@
     width: 140px;
     height: 40px;
     border: 1px solid;
-    background-color: rgb(153 243 243);
+    background-color: #fff;
     border-radius: 5px;
     cursor: pointer;
 
@@ -49,16 +52,20 @@
 .button a {
     text-decoration: none;
     font-weight: bold;
+    color: red;
 }
 
- .workInfo {
-     background-color: #444444;
-     border-radius: 0 0 10px 10px;
- }
+.workInfo {
+    background-color: #444444;
+    border-radius: 0 0 10px 10px;
+}
+
 .workTitle {
     width: auto;
-    margin-bottom: 20px;
     margin-top: 0;
+
+    display: flex;
+    justify-content: center;
 
     font-size: 20px;
     text-transform: capitalize;
@@ -71,6 +78,8 @@
     width: auto;
     height: 75px;
     margin: 10px;
+    display: inline-table;
+    text-align: justify;
 
     color: #fff;
     letter-spacing: 1px;
