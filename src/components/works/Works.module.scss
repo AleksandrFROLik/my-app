@@ -14,6 +14,14 @@
     align-items: flex-start;
     margin-top: 30px;
   }
+  .works {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
